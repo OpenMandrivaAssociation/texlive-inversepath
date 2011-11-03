@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/inversepath
+# catalog-date 2008-08-19 23:32:24 +0200
+# catalog-license lppl1.3
+# catalog-version 0.2
 Name:		texlive-inversepath
 Version:	0.2
 Release:	1
@@ -44,6 +50,7 @@ different directory.
 #- source
 %doc %{_texmfdistdir}/source/latex/inversepath/inversepath.dtx
 %doc %{_texmfdistdir}/source/latex/inversepath/inversepath.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ different directory.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
