@@ -1,6 +1,6 @@
 Name:		texlive-inversepath
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Calculate inverse file paths
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/inversepath
