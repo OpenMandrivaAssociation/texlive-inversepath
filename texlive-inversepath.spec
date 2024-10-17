@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Calculate inverse file paths
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/inversepath
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/inversepath
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/inversepath.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/inversepath.doc.r%{version}.tar.xz
